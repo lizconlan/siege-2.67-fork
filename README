@@ -1,0 +1,5 @@
+Unofficial fork of JoeDog's excellent Siege app http://www.joedog.org/JoeDog/Siege
+
+Extended logging format to record the HTTP "errors" (codes of 400 or higher, bar redirects) as well as socket failures
+
+Added -E=FILE command line option to record the verbose data for each HTTP request to a specified file (useful if you are running Siege tests in an automated fashion but still want to be able to monitor progress by looking at the screen)
